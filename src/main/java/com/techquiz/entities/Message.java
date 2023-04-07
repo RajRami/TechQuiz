@@ -1,4 +1,4 @@
-package com.tech_blog.entities;
+package com.techquiz.entities;
 
 public class Message {
     private String content;

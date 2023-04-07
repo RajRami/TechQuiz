@@ -1,4 +1,4 @@
-package com.tech_blog.helper;
+package com.techquiz.helper;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -1,16 +1,17 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Owner
-  Date: 3/29/2023
-  Time: 12:54 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Error: TechQuiz</title>
+    <%@include file="all_css_js.jsp" %>
+
+</head>
+<body>
+<div class="text-center primary-background banner-background pb-5">
+    <img src="./img/error.png" height="12%" width="30%" class="img-fluid">
+    <h3 class="display-4 text-white">404 Page Not Found...!</h3>
+    <a href="index.jsp" class="btn btn-primary btn-lg text-white mt-3"><span class="fa fa-home"></span> Home</a>
+</div>
+
+</body>
 </html>
